@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+<local-tx-datasource>
+<jndi-name>jdbc/gsquote</jndi-name>
+<connection-url>jdbc:oracle:thin:@localhost:1521:XE</connection-url>
+<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+<user-name>gsabb</user-name>
+<password>gsabb</password>
+<exception-sorter-classname>org.jboss.resource.adapter.jdbc.vendor.OracleExceptionSorter</exception-sorter-classname>
+<blocking-timeout-millis>5000</blocking-timeout-millis>
+<idle-timeout-minutes>15</idle-timeout-minutes>
+<max-pool-size>20</max-pool-size>
+<min-pool-size>5</min-pool-size>
+<idle-timeout-minutes>4</idle-timeout-minutes>
+<use-java-context>false</use-java-context>
+</local-tx-datasource>
+</datasources>

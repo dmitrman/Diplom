@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+<local-datasource>
+<connection-url>jdbc:mysql://localhost:3306/Images</connection-url>
+<driver-class>com.jdbc.driver.MySQLDriver</driver-class>
+<user-name>root</user-name>
+<password>123</password>
+</local-datasource>
+</datasources>

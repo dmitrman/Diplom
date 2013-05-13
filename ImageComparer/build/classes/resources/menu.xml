@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar name="mainMenu">
+  <menu name="file" text="Файл" mnemonic="F">
+          <menuitem name="create" text="Create" mnemonic="C" accelerator="control N"/> 
+		  <menuitem name="open" text="Open" mnemonic="O" accelerator="control O" enabled="false"/>   
+		  <menuitem name="close" text="Close" mnemonic="l" enabled="false"/> 
+		  <menuitem name="loadpattern" text="Загрузить образец" mnemonic="З" /> 
+		  <menuitem name="separator" /> 
+		  <menuitem name="print" text="Print" mnemonic="P" />
+		  <menuitem name="separator" />
+		  <menuitem name="exit" text="Exit" mnemonic="E" accelerator="alt E" />
+          <menu name="file" text="File" mnemonic="F">
+                <menuitem name="create" text="Create" mnemonic="C" accelerator="control N"/> 
+		        <menuitem name="open" text="Open" mnemonic="O" accelerator="control O" enabled="false"/>   
+		        <menuitem name="close" text="Close" mnemonic="l" enabled="false"/> 
+		        <menuitem name="separator" /> 
+		        <menuitem name="print" text="Print" mnemonic="P" />
+		        <menuitem name="separator" />
+		        <menuitem name="exit" text="Exit" mnemonic="E" accelerator="alt E" />
+           </menu>  
+   </menu>  
+    <menu name="method" text="Метод" mnemonic="M">
+	<checkboxmenuitem name="method1" text="RGBbrightness" buttongroup="methods" />
+	<checkboxmenuitem name="method2" text="CurvaturePhaseMethod" buttongroup="methods"/>
+	
+	
+	 <menuitem name="separator" /> 
+        
+		<checkboxmenuitem name="method4" text="Quadro(Evclid)" buttongroup="methods" />
+		<checkboxmenuitem name="method7" text="Quadro(Histogram)" buttongroup="methods" />
+		<menuitem name="separator" />
+		 <checkboxmenuitem name="method5" text="Quadro(RGB)1" buttongroup="methods" />
+        <checkboxmenuitem name="method6" text="Quadro(RGB)2" buttongroup="methods" />
+		<checkboxmenuitem name="method3" text="Quadro(RGB)3" buttongroup="methods" />
+		
+	</menu> 
+</menubar>
