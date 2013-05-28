@@ -4,6 +4,8 @@
  */
 package service;
 
+import domain.ColorMomentsIndex;
+import domain.RGBBrightnessMethod;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +13,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
+import presentation.ControllerFactory;
 
 /**
  *
@@ -136,12 +139,15 @@ public ArrayList<Integer> getBlueChannelOfImage(BufferedImage img){
     }
     return mas;
 } 
-int [] GetColorToRGB(int col){    
+public int [] GetColorToRGB(int col){    
           int r=(col&16711680)>>16;
           int g=(col&65280)>>8;
           int b=(col&255);
           int[] rgb=new int[]{r,g,b};
           return rgb;
 }
+////////////////////////////////////////////////////////////////////////////////
+
+
 
 }

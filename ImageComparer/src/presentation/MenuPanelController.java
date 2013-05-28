@@ -75,7 +75,7 @@ public class MenuPanelController implements Observable{
         menus.put("read",(createLabelImage(new ImageIcon(getClass().getResource("/resources/direct.png")))));
         menus.put("about",(createLabelImage(new ImageIcon(getClass().getResource("/resources/info.png")))));
         menus.put("save",(createLabelImage(new ImageIcon(getClass().getResource("/resources/save.png")))));
-        menus.put("refresh",(createLabelImage(new ImageIcon(getClass().getResource("/resources/icon.jpg")))));
+        menus.put("refresh",(createLabelImage(new ImageIcon("C:\\13.png"))));
         menus.put("preferences",(createLabelImage(new ImageIcon(getClass().getResource("/resources/run.png")))));
         menus.put("method_param",(createLabelImage(new ImageIcon(getClass().getResource("/resources/pills5.png"))))); // параметры метода
         
