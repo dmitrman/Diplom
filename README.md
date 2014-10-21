@@ -1,4 +1,4 @@
 Diplom
 ======
 
-Bachelor's diploma work "Поиск логотипов в коллекциях логотипов используя различные методы вычисления признаков"
+Bachelor's diploma work "Search logos in  collection of images"
